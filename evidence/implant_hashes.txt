@@ -1,0 +1,2 @@
+SHA256: 696ae695ee20382522dfa00504cdd025ccff22030e019df986461d8c313ffc45  implants/update_helper.exe
+MD5: 75cb12221fd29975fc5522845f9a92a5  implants/update_helper.exe

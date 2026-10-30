@@ -1,0 +1,13 @@
+"_time",Image,CommandLine,ParentImage,User
+"2026-10-27T22:53:08.841+0300","C:\Windows\System32\whoami.exe","""C:\WINDOWS\system32\whoami.exe"" /all","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"
+"2026-10-27T22:53:22.376+0300","C:\Windows\System32\systeminfo.exe","""C:\WINDOWS\system32\systeminfo.exe""","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"
+"2026-10-27T22:53:36.969+0300","C:\Windows\System32\ipconfig.exe","""C:\WINDOWS\system32\ipconfig.exe"" /all","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"
+"2026-10-27T22:53:53.226+0300","C:\Windows\System32\tasklist.exe","""C:\WINDOWS\system32\tasklist.exe"" /v","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"
+"2026-10-27T22:53:59.771+0300","C:\Windows\System32\net.exe","""C:\WINDOWS\system32\net.exe"" user","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"
+"2026-10-27T22:54:06.017+0300","C:\Windows\System32\NETSTAT.EXE","""C:\WINDOWS\system32\NETSTAT.EXE""","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","NOT_TRANSLATED
+SOC-WIN11-SPLUN\splunk"

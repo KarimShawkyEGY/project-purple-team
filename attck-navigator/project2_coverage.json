@@ -1,0 +1,26 @@
+{
+  "name": "Project — Purple Team Coverage",
+  "versions": {"attack": "14", "navigator": "4.9"},
+  "domain": "enterprise-attack",
+  "description": "Attack simulation and detection coverage",
+  "techniques": [
+    {"techniqueID": "T1105",     "color": "#4CAF50", "comment": "Executed + Detected — update_helper.exe downloaded via PowerShell, Splunk Rule 92207 fired"},
+    {"techniqueID": "T1204.002", "color": "#4CAF50", "comment": "Executed + Detected — implant executed by user via Start-Process"},
+    {"techniqueID": "T1071.001", "color": "#4CAF50", "comment": "Executed + Detected — Sliver HTTPS beacon to Kali on port 443"},
+    {"techniqueID": "T1003.002", "color": "#4CAF50", "comment": "Executed + Detected — Mimikatz lsadump::sam, file drop detected"},
+    {"techniqueID": "T1552.004", "color": "#4CAF50", "comment": "Executed + Detected — DefaultPassword recovered in plaintext from LSA Secrets"},
+    {"techniqueID": "T1082",     "color": "#4CAF50", "comment": "Executed + Detected — systeminfo run via Sliver shell"},
+    {"techniqueID": "T1087.001", "color": "#4CAF50", "comment": "Executed + Detected — net user and net localgroup Administrators"},
+    {"techniqueID": "T1033",     "color": "#4CAF50", "comment": "Executed + Detected — whoami /all run via Sliver shell"},
+    {"techniqueID": "T1057",     "color": "#4CAF50", "comment": "Executed + Detected — tasklist /v run via Sliver shell"},
+    {"techniqueID": "T1049",     "color": "#4CAF50", "comment": "Executed + Detected — netstat -ano run via Sliver shell"},
+    {"techniqueID": "T1016",     "color": "#4CAF50", "comment": "Executed + Detected — ipconfig /all run via Sliver shell"},
+    {"techniqueID": "T1003.001", "color": "#FF9800", "comment": "Attempted — blocked by PPL (RunAsPPL=0x2), Event ID 10 logged"}
+  ],
+  "legendItems": [
+    {"label": "Executed + Detected",        "color": "#4CAF50"},
+    {"label": "Attempted — blocked by PPL", "color": "#FF9800"}
+  ],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd"
+}

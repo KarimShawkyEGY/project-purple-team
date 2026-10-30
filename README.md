@@ -37,7 +37,7 @@ professional incident report backed by Splunk/Sysmon evidence and customdetectio
 - **Medium:** 1 detection gap identified and closed with custom Splunk SPL query
 
 ## Lessons Learned
-See [Section 10 of the incident report](report/incident_report.md#10-lessonslearned).
+See [Section 9 of the incident report](report/incident_report.md#10-lessonslearned).
 ## Key Outputs
 - [Incident Report (PDF)](report/incident_report.pdf)
 - [Attack Timeline (CSV)](evidence/attack_timeline.csv)

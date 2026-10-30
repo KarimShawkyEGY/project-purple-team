@@ -153,7 +153,7 @@ Sysmon Event ID 1 captured `mimikatz.exe` process creation. The `token::elevate`
 5. **Alert on new processes from user-writable paths** - any executable launching from `C:\Users\Public\`, `C:\Temp\`, or `%APPDATA%\` 
    should trigger a medium-severity alert.
 
-## 9. Lessions Learned
+## 9. Lessons Learned
 
 - **LSASS PPL at UEFI level (0x2) is highly effective.** 
 	It blocked `sekurlsa::logonpasswords` completely. 
